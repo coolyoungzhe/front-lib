@@ -1,0 +1,30 @@
+{
+  "files": [],
+  "references": [
+    { 
+      "path": "./tsconfig.app.json" 
+    },
+    { 
+      "path": "./tsconfig.node.json" 
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@":["src"],
+      "@/*":["src/*"]
+    },
+    "skipDefaultLibCheck": true,
+    "isolatedModules": true,
+    "types": ["vite/client"],
+    "module": "ESNext",
+    "moduleResolution":"node",
+    "resolveJsonModule": true
+  },
+  "lib":["WebWorker"],
+
+  "exclude": [
+    "node_modules"
+
+  ]
+}
