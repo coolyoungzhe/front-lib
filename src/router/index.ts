@@ -9,7 +9,7 @@ const routes:Array<RouteRecordRaw> = [
     },{
         name:'layput',
         path:'/layout',
-        component:()=>import('@/pages/menu/index.vue')
+        component:()=>import('@/layout/index.vue')
     }
 ]
 const router = createRouter({

@@ -1,12 +1,15 @@
 <script setup lang="ts">
-import Menu from './pages/menu/index.vue'
 </script>
 
 <template>
-  <Menu />
+  <router-view />
 </template>
 
 <style scoped>
+*{
+  padding: 0;
+  margin: 0;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
